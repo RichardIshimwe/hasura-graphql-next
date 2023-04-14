@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:black;
+    display: flex;
+    flex-direction: column-reverse
+}
+.same{
+    width: 25%;
+    height: 200px;
+}
+
+
+.one{
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color: aqua;
+}
+.two{
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color: bisque
+    ;
+}
+.three{
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color: lightgreen;
+}
+.four{
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color: aliceblue;
+}

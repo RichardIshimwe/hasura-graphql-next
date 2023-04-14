@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style> 
+        *{
+            margin: 0;
+        }
+        button{
+            background-color: #979D55;
+            color: #201818;
+            border: none;
+           /* margin: 40px; */
+           padding-top: 10px;
+           padding-left:15px;
+           padding-right: 15px;
+           padding-bottom: 10px;
+           border-radius: 30px;
+           float: right;
+        }
+        button:hover{
+            background-color: #4B4D3C;
+            color: white;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #center{
+            width: 500px;
+            height: 300px;
+            background-color: #979D55;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .one{
+            background-color: green;
+        }
+        .two{
+            background-color: blueviolet;
+        }
+        .three{
+            background-color: blanchedalmond;
+        }
+        </style>
+    </head>
+    <body>
+       <!-- <button>click me</button> -->
+       <div id="center"> 
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+       </div>
+    </body>
+</html>

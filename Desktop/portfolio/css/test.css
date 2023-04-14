@@ -1,0 +1,38 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    background-color: green;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.navigation > ul{
+    display: flex;
+}
+li{
+    padding-left: 7px;
+    list-style: none;
+}
+li > a:hover{
+    color: rgb(214, 120, 13);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+color: bisque;
+}
+a:hover{
+    color: green;
+}
+
+
