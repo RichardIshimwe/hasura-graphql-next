@@ -1,0 +1,7 @@
+mutation CreateTodo($input: Todo_insert_input!) {
+  insert_Todo_one(object: $input) {
+    id
+    name
+    task
+  }
+}

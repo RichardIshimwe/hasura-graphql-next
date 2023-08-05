@@ -1,0 +1,10 @@
+schema:
+  -  https://organic-sailfish-94.hasura.app/v1/graphql:
+      headers:
+        x-hasura-admin-secret:  "Q4p2iDWwgyXv5DOr0GwkgX3PIDAvacfZitH9zD1TLClg0oFpO082NEyTulzeKHx9"
+documents: "./client/**/*.graphql"
+generates:
+  ./client/generated/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"

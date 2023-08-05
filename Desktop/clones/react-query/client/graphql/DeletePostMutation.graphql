@@ -1,0 +1,6 @@
+mutation DeletePost($deletePostId: Int!) {
+  delete_Todo_by_pk(id: $deletePostId) {
+    id
+  }
+}
+
